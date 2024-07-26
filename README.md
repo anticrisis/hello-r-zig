@@ -9,7 +9,7 @@ This was observed in zig version 0.13.0.
 
 ### Update
 
-Possibly this has been fixed after 0.13.0...
+Possibly this has been fixed after 0.13.0... See [ziggit thread](https://ziggit.dev/t/addcopydirectory-vs-addcopyfile-and-zig-cache/5365/9?u=anticrisis).
 
 
 ```sh
