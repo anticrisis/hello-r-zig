@@ -5,6 +5,13 @@
 Seems that when `addCopyDirectory` is used, changing the contents of a
 file in that directory does NOT invalidate the cache. See below:
 
+This was observed in zig version 0.13.0.
+
+### Update
+
+Possibly this has been fixed after 0.13.0...
+
+
 ```sh
 [nix-shell:~/dev/github/hello-r-zig]$ rm -r .zig-cache/ zig-out/
 
